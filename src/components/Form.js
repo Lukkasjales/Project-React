@@ -9,6 +9,7 @@ function Form() {
     
     const [name, setName] = useState() //'name' is the current value and 'setName' is the function that modifies the value
     const [value, setValue] = useState(0) //'value' receives '0'
+    
     return (
         <div>
             <h1>Sign up</h1>

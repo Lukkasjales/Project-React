@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import MethodsbyProps from './MethodsbyProps'
 
 function Event({ digit }) { 
     function message() { 
@@ -8,6 +9,7 @@ function Event({ digit }) {
     return (
         <>
             <button onClick={message}>Click to trigger an event</button> 
+            <MethodsbyProps text="This event is from the father component (Event)" event={message} />
         </>
     )
     //'message' is a function's reference
